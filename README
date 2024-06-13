@@ -1,0 +1,19 @@
+# Backend for My Project
+
+This backend server provides APIs for the My Project application, handling AI interactions and user management.
+
+## Setup
+
+Clone the repository, navigate to the backend directory, and run:
+
+```bash
+npm install
+node server.js
+
+## Dependencies:
+
+- **@google/generative-ai** (`0.12.0`): Enables interaction with Google's Generative AI to generate dynamic text responses.
+- **cors** (`2.8.5`): Used to enable CORS, allowing the server to accept requests from different origins which is essential during development.
+- **dotenv** (`16.4.5`): Manages environment variables from a `.env` file, enhancing security and configuration management.
+- **express** (`4.19.2`): Serves as the web server framework, handling routing, middleware, and HTTP utility methods.
+
